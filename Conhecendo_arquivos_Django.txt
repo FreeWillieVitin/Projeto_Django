@@ -1,0 +1,29 @@
+manage.py
+O arquivo manage.py oferece uma interface de linha de comando para gerenciar e executar várias tarefas relacionadas ao projeto. 
+Alguns dos comandos mais utilizados do manage.py são:
+
+runserver: inicia um servidor web local para a aplicação Django, permitindo que você visualize e teste a aplicação em seu próprio
+computador.
+
+startapp: permite que você crie um novo aplicativo rapidamente.
+
+makemigrations: cria migrações de banco de dados com base nas alterações feitas nos modelos do aplicativo.
+
+migrate: aplica as migrações de banco de dados pendentes.
+
+test: executa os testes do aplicativo.
+----------------------------------------------------------------------------------------------------------------------------------
+
+setting.py
+É onde vai ser configurado tudo sobre o projeto
+----------------------------------------------------------------------------------------------------------------------------------
+
+url.py
+----------------------------------------------------------------------------------------------------------------------------------
+
+wsgi.py
+----------------------------------------------------------------------------------------------------------------------------------
+
+asgi.py
+----------------------------------------------------------------------------------------------------------------------------------
+
