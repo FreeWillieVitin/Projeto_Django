@@ -15,15 +15,29 @@ test: executa os testes do aplicativo.
 ----------------------------------------------------------------------------------------------------------------------------------
 
 setting.py
-É onde vai ser configurado tudo sobre o projeto
+É onde vai ser configurado tudo sobre o projeto desde as definições do banco de dados até as configurações de segurança
+e middleware.
 ----------------------------------------------------------------------------------------------------------------------------------
 
 url.py
+O arquivo urls.py é um arquivo de configuração de URLs no framework Django. Ele é usado para mapear URLs para funções específicas,
+fornecendo uma maneira organizada de rotear solicitações do navegador para as visualizações corretas
 ----------------------------------------------------------------------------------------------------------------------------------
 
 wsgi.py
+O WSGI é uma especificação que define como os servidores web e os aplicativos web em Python devem interagir.
+Ele funciona como uma interface que permite que os aplicativos web, como o Django, sejam executados em diferentes servidores web
+sem a necessidade de modificar o código-fonte do aplicativo.
+
+No contexto do Django, o módulo WSGI é responsável por comunicar solicitações HTTP entre um servidor web e a aplicação Django.
+Ele garante que as solicitações sejam tratadas corretamente pelo Django, permitindo que o aplicativo responda a
+elas de forma adequada.
 ----------------------------------------------------------------------------------------------------------------------------------
 
 asgi.py
+O módulo ASGI é uma especificação que define como os aplicativos web em Python devem lidar com solicitações de forma assíncrona.
+Tradicionalmente, o Django lida com solicitações de forma síncrona, o que significa que uma solicitação é tratada de cada vez,
+esperando por respostas antes de atender a outra solicitação. O ASGI permite que o Django lide com várias solicitações
+simultaneamente, o que é útil para aplicativos que precisam de alta concorrência e eventos em tempo real.
 ----------------------------------------------------------------------------------------------------------------------------------
 
