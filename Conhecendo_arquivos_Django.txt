@@ -41,3 +41,4 @@ esperando por respostas antes de atender a outra solicitação. O ASGI permite q
 simultaneamente, o que é útil para aplicativos que precisam de alta concorrência e eventos em tempo real.
 ----------------------------------------------------------------------------------------------------------------------------------
 
+apps.py

@@ -1,3 +1,8 @@
 django-admin startproject nomeDaPasta = Cria uma pasta com o nome informado, com as configurações necessarias Django
-django-admin startproject nomeDaPasta . = Cria uma pasta com o nome informado, com as configurações necessarias Django, mas coloca as configurações na pasta raiz
+
+django-admin startproject nomeDaPasta . = Cria uma pasta com o nome informado, com as configurações necessarias Django,
+mas coloca as configurações na pasta raiz
+
 python manage.py runserver = Comando que sobe o servidor
+
+python manage.py startapp nomeDoApp = 

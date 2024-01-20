@@ -16,20 +16,27 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
+# from django.http import HttpResponse
+from home.views import my_home
+from blog.views import my_view
 
 # HTTP Request <-> HTTP Response
 # MVT (MVC)
 
+# Códigos de status HTTP: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status#respostas_de_erro_do_cliente
 
-def my_home(Request):
-    print('Home')
-    return HttpResponse('HOME')
+# Essa função mostra como funciona uma requisição http, ela recebe a requisição do usuário e o servidor retorna algo como resposta
+# a aquela requisição, no caso requisitamos acesso a uma view e o servidor retorna uma pagina com o texto 'Hello World'.
 
 
-def my_view(Request):
-    print('Hello Mother')
-    return HttpResponse('Hello World')
+# def my_home(Request):  # Isso é uma função chamada de view
+#     print('Home')
+#     return HttpResponse('HOME')
+
+
+# def my_view(Request):
+#     print('Hello Mother')
+#     return HttpResponse('Hello World')
 
 
 urlpatterns = [
