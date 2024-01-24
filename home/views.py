@@ -8,7 +8,11 @@ from django.shortcuts import render
 def my_home(Request):  # Isso é uma função chamada de view
     print('Home')
     # return HttpResponse('<b>HOME</b>')
+    contexto = {
+        'Texto': 'Estamos na Home'
+    }
     return render(
         Request,
-        'home/index.html'
+        'home/index.html',
+        context=contexto
     )
