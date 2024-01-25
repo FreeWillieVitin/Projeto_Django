@@ -9,7 +9,8 @@ def my_home(Request):  # Isso é uma função chamada de view
     print('Home')
     # return HttpResponse('<b>HOME</b>')
     contexto = {
-        'Texto': 'Estamos na Home'
+        'Texto': 'Estamos na Home',
+        'title': 'Home'
     }
     return render(
         Request,
