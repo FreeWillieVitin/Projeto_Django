@@ -6,3 +6,5 @@ mas coloca as configurações na pasta raiz
 python manage.py runserver = Comando que sobe o servidor
 
 python manage.py startapp nomeDoApp = 
+
+python manage.py collectstatic = 

@@ -8,6 +8,7 @@ env.bak/
 venv.bak/
 Calculadora.spec
 container_aula_docker
+arquivos_static
 
 
 # Node
