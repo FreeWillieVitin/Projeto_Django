@@ -42,3 +42,6 @@ simultaneamente, o que é útil para aplicativos que precisam de alta concorrên
 ----------------------------------------------------------------------------------------------------------------------------------
 
 apps.py
+O módulo apps.py em Django é utilizado para configurar a aplicação Django e definir algumas características específicas dela,
+como o nome da aplicação, configurações de aplicação padrão e ações a serem executadas quando a aplicação é iniciada.
+Ele forence uma maneira de personalizar o comportamento da sua aplicação dentro do framework Django

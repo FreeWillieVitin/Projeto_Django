@@ -5,6 +5,6 @@ mas coloca as configurações na pasta raiz
 
 python manage.py runserver = Comando que sobe o servidor
 
-python manage.py startapp nomeDoApp = 
+python manage.py startapp nomeDoApp = Cria uma noma aplicação Django
 
-python manage.py collectstatic = 
+python manage.py collectstatic = Coleta e organiza todos os arquivos estáticos existentes no projeto em um único diretório central
